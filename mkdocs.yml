@@ -1,7 +1,9 @@
 site_name: Hong Kong Fire Documentary
 site_url: https://Hong-Kong-Emergency-Coordination-Hub.github.io/Hong-Kong-Fire-Documentary/
+site_description: 整理香港大浦火災相關資訊，包括時間線、新聞、技術分析與社區支援 | Comprehensive archive of Tai Po fire incident with timeline, news, technical analysis, and community resources
 repo_url: https://github.com/Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary
 repo_name: Hong-Kong-Fire-Documentary
+edit_uri: edit/main/content/
 
 theme:
   name: material
@@ -12,7 +14,7 @@ theme:
     - toc.follow
     - search.suggest
     - search.highlight
-  palette: 
+  palette:
     - scheme: default
       primary: black
       accent: black
@@ -31,6 +33,8 @@ docs_dir: content
 extra_css:
   - assets/stylesheets/extra.css
 
+extra:
+  og_image: https://Hong-Kong-Emergency-Coordination-Hub.github.io/Hong-Kong-Fire-Documentary/assets/og-image.png
 
 copyright: 'Copyright &copy; 2025 Hong Kong Fire Documentary. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
 
