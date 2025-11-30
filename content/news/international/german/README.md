@@ -2,7 +2,7 @@
 
 ## Media Outlets
 
-- [Tagesschau](Tagesschau/README.md)
+- [Tagesschau](tagesschau/README.md)
 
 ## Pending Collection (Sammlung ausstehend)
 
