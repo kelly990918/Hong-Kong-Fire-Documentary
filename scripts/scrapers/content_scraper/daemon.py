@@ -743,6 +743,9 @@ def run_daemon(run_once: bool = False):
                     # Commit any changes
                     commit_changes()
 
+                    # Push to origin to keep fork in sync with upstream
+                    push_to_origin_with_retry()
+
                     last_sync = now
                     consecutive_failures = 0
                     logging.info("Sync cycle complete")
